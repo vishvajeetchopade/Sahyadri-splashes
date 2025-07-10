@@ -1,0 +1,1212 @@
+ // child: Row(
+                  //   children: [
+                  //     GestureDetector(
+                  //       onTap: () {
+                  //         Navigator.of(context)
+                  //             .push(MaterialPageRoute(builder: (context) {
+                  //           return const kalu();
+                  //         }));
+                  //       },
+                  //       child: Container(
+                  //         padding: const EdgeInsets.only(top: 10),
+                  //         margin: const EdgeInsets.only(left: 10),
+                  //         width: 213,
+                  //         height: 195,
+                  //         decoration: BoxDecoration(
+                  //             borderRadius: BorderRadius.circular(20),
+                  //             color: Colors.white70),
+                  //         child: Column(
+                  //           mainAxisAlignment: MainAxisAlignment.start,
+                  //           children: [
+                  //             Container(
+                  //               width: 197,
+                  //               height: 119,
+                  //               decoration: BoxDecoration(
+                  //                   borderRadius: BorderRadius.circular(20),
+                  //                   image: const DecorationImage(
+                  //                       image: AssetImage("assets/kalu2.jpeg"),
+                  //                       fit: BoxFit.cover)),
+                  //             ),
+                  //             Padding(
+                  //               padding: const EdgeInsets.only(left: 15),
+                  //               child: Column(
+                  //                 mainAxisAlignment: MainAxisAlignment.start,
+                  //                 crossAxisAlignment: CrossAxisAlignment.start,
+                  //                 children: [
+                  //                   const SizedBox(
+                  //                     height: 15,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       Text(
+                  //                         "Kalu Waterfall",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 14,
+                  //                           fontWeight: FontWeight.bold,
+                  //                           color: Colors.black,
+                  //                         ),
+                  //                       ),
+                  //                       const SizedBox(
+                  //                         width: 10,
+                  //                       ),
+                  //                       const Icon(
+                  //                         Icons.star,
+                  //                         color: Color(0xFFEE684A),
+                  //                         size: 15,
+                  //                       ),
+                  //                       Text(
+                  //                         "4.4",
+                  //                         style: GoogleFonts.poppins(
+                  //                             fontSize: 12,
+                  //                             fontWeight: FontWeight.w500,
+                  //                             color: Colors.grey),
+                  //                       )
+                  //                     ],
+                  //                   ),
+                  //                   const SizedBox(
+                  //                     height: 5,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       const Icon(Icons.location_on_rounded,
+                  //                           size: 15, color: Color(0xFFEE684A)),
+                  //                       Text(
+                  //                         "Malshej Ghat,Murbad",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 12,
+                  //                           color: Colors.grey,
+                  //                         ),
+                  //                       ),
+                  //                     ],
+                  //                   ),
+                  //                 ],
+                  //               ),
+                  //             ),
+                  //           ],
+                  //         ),
+                  //       ),
+                  //     ),
+                  //     GestureDetector(
+                  //       onTap: () {
+                  //         Navigator.of(context)
+                  //             .push(MaterialPageRoute(builder: (context) {
+                  //           return const Devkund();
+                  //         }));
+                  //       },
+                  //       child: Container(
+                  //         padding: const EdgeInsets.only(top: 10),
+                  //         margin: const EdgeInsets.only(left: 10),
+                  //         width: 213,
+                  //         height: 195,
+                  //         decoration: BoxDecoration(
+                  //             borderRadius: BorderRadius.circular(20),
+                  //             color: Colors.white70),
+                  //         child: Column(
+                  //           mainAxisAlignment: MainAxisAlignment.start,
+                  //           children: [
+                  //             Container(
+                  //               width: 197,
+                  //               height: 119,
+                  //               decoration: BoxDecoration(
+                  //                   borderRadius: BorderRadius.circular(20),
+                  //                   image: const DecorationImage(
+                  //                       image:
+                  //                           AssetImage("assets/Devkund.jpeg"),
+                  //                       fit: BoxFit.cover)),
+                  //             ),
+                  //             Padding(
+                  //               padding: const EdgeInsets.only(left: 15),
+                  //               child: Column(
+                  //                 mainAxisAlignment: MainAxisAlignment.start,
+                  //                 crossAxisAlignment: CrossAxisAlignment.start,
+                  //                 children: [
+                  //                   const SizedBox(
+                  //                     height: 15,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       Text(
+                  //                         "Devkund Waterfall",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 14,
+                  //                           fontWeight: FontWeight.bold,
+                  //                           color: Colors.black,
+                  //                         ),
+                  //                       ),
+                  //                       const SizedBox(
+                  //                         width: 10,
+                  //                       ),
+                  //                       const Icon(
+                  //                         Icons.star,
+                  //                         color: Color(0xFFEE684A),
+                  //                         size: 15,
+                  //                       ),
+                  //                       Text(
+                  //                         "4.2",
+                  //                         style: GoogleFonts.poppins(
+                  //                             fontSize: 12,
+                  //                             fontWeight: FontWeight.w500,
+                  //                             color: Colors.grey),
+                  //                       )
+                  //                     ],
+                  //                   ),
+                  //                   const SizedBox(
+                  //                     height: 5,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       const Icon(Icons.location_on_rounded,
+                  //                           size: 15, color: Color(0xFFEE684A)),
+                  //                       Text(
+                  //                         "Tamhini Ghat,Mulshi",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 12,
+                  //                           color: Colors.grey,
+                  //                         ),
+                  //                       ),
+                  //                     ],
+                  //                   ),
+                  //                 ],
+                  //               ),
+                  //             ),
+                  //           ],
+                  //         ),
+                  //       ),
+                  //     ),
+                  //     GestureDetector(
+                  //       onTap: () {
+                  //         Navigator.of(context)
+                  //             .push(MaterialPageRoute(builder: (context) {
+                  //           return const Kumbhe();
+                  //         }));
+                  //       },
+                  //       child: Container(
+                  //         padding: const EdgeInsets.only(top: 10),
+                  //         margin: const EdgeInsets.only(left: 10),
+                  //         width: 213,
+                  //         height: 195,
+                  //         decoration: BoxDecoration(
+                  //             borderRadius: BorderRadius.circular(20),
+                  //             color: Colors.white70),
+                  //         child: Column(
+                  //           mainAxisAlignment: MainAxisAlignment.start,
+                  //           children: [
+                  //             Container(
+                  //               width: 197,
+                  //               height: 119,
+                  //               decoration: BoxDecoration(
+                  //                   borderRadius: BorderRadius.circular(20),
+                  //                   image: const DecorationImage(
+                  //                       image: AssetImage("assets/kumbhe.jpeg"),
+                  //                       fit: BoxFit.cover)),
+                  //             ),
+                  //             Padding(
+                  //               padding: const EdgeInsets.only(left: 15),
+                  //               child: Column(
+                  //                 mainAxisAlignment: MainAxisAlignment.start,
+                  //                 crossAxisAlignment: CrossAxisAlignment.start,
+                  //                 children: [
+                  //                   const SizedBox(
+                  //                     height: 15,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       Text(
+                  //                         "Kumbhe Waterfall",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 14,
+                  //                           fontWeight: FontWeight.bold,
+                  //                           color: Colors.black,
+                  //                         ),
+                  //                       ),
+                  //                       const SizedBox(
+                  //                         width: 10,
+                  //                       ),
+                  //                       const Icon(
+                  //                         Icons.star,
+                  //                         color: Color(0xFFEE684A),
+                  //                         size: 15,
+                  //                       ),
+                  //                       Text(
+                  //                         "4.2",
+                  //                         style: GoogleFonts.poppins(
+                  //                             fontSize: 12,
+                  //                             fontWeight: FontWeight.w500,
+                  //                             color: Colors.grey),
+                  //                       )
+                  //                     ],
+                  //                   ),
+                  //                   const SizedBox(
+                  //                     height: 5,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       const Icon(Icons.location_on_rounded,
+                  //                           size: 15, color: Color(0xFFEE684A)),
+                  //                       Text(
+                  //                         "Kumbhe,Raigad",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 12,
+                  //                           color: Colors.grey,
+                  //                         ),
+                  //                       ),
+                  //                     ],
+                  //                   ),
+                  //                 ],
+                  //               ),
+                  //             ),
+                  //           ],
+                  //         ),
+                  //       ),
+                  //     ),
+                  //     GestureDetector(
+                  //       onTap: () {
+                  //         Navigator.of(context)
+                  //             .push(MaterialPageRoute(builder: (context) {
+                  //           return const Randha();
+                  //         }));
+                  //       },
+                  //       child: Container(
+                  //         padding: const EdgeInsets.only(top: 10),
+                  //         margin: const EdgeInsets.only(left: 10),
+                  //         width: 213,
+                  //         height: 195,
+                  //         decoration: BoxDecoration(
+                  //             borderRadius: BorderRadius.circular(20),
+                  //             color: Colors.white70),
+                  //         child: Column(
+                  //           mainAxisAlignment: MainAxisAlignment.start,
+                  //           children: [
+                  //             Container(
+                  //               width: 197,
+                  //               height: 119,
+                  //               decoration: BoxDecoration(
+                  //                   borderRadius: BorderRadius.circular(20),
+                  //                   image: const DecorationImage(
+                  //                       image: AssetImage("assets/randha.jpg"),
+                  //                       fit: BoxFit.cover)),
+                  //             ),
+                  //             Padding(
+                  //               padding: const EdgeInsets.only(left: 15),
+                  //               child: Column(
+                  //                 mainAxisAlignment: MainAxisAlignment.start,
+                  //                 crossAxisAlignment: CrossAxisAlignment.start,
+                  //                 children: [
+                  //                   const SizedBox(
+                  //                     height: 15,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       Text(
+                  //                         "Randha Waterfall",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 14,
+                  //                           fontWeight: FontWeight.bold,
+                  //                           color: Colors.black,
+                  //                         ),
+                  //                       ),
+                  //                       const SizedBox(
+                  //                         width: 10,
+                  //                       ),
+                  //                       const Icon(
+                  //                         Icons.star,
+                  //                         color: Color(0xFFEE684A),
+                  //                         size: 15,
+                  //                       ),
+                  //                       Text(
+                  //                         "4.2",
+                  //                         style: GoogleFonts.poppins(
+                  //                             fontSize: 12,
+                  //                             fontWeight: FontWeight.w500,
+                  //                             color: Colors.grey),
+                  //                       )
+                  //                     ],
+                  //                   ),
+                  //                   const SizedBox(
+                  //                     height: 5,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       const Icon(Icons.location_on_rounded,
+                  //                           size: 15, color: Color(0xFFEE684A)),
+                  //                       Text(
+                  //                         "Bhandardara,Ahilyanagar",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 12,
+                  //                           color: Colors.grey,
+                  //                         ),
+                  //                       ),
+                  //                     ],
+                  //                   ),
+                  //                 ],
+                  //               ),
+                  //             ),
+                  //           ],
+                  //         ),
+                  //       ),
+                  //     ),
+                  //     GestureDetector(
+                  //       onTap: () {
+                  //         Navigator.of(context)
+                  //             .push(MaterialPageRoute(builder: (context) {
+                  //           return const Thoseghar();
+                  //         }));
+                  //       },
+                  //       child: Container(
+                  //         padding: const EdgeInsets.only(top: 10),
+                  //         margin: const EdgeInsets.only(left: 10),
+                  //         width: 213,
+                  //         height: 195,
+                  //         decoration: BoxDecoration(
+                  //             borderRadius: BorderRadius.circular(20),
+                  //             color: Colors.white70),
+                  //         child: Column(
+                  //           mainAxisAlignment: MainAxisAlignment.start,
+                  //           children: [
+                  //             Container(
+                  //               width: 197,
+                  //               height: 119,
+                  //               decoration: BoxDecoration(
+                  //                   borderRadius: BorderRadius.circular(20),
+                  //                   image: const DecorationImage(
+                  //                       image:
+                  //                           AssetImage("assets/thoseghar.jpg"),
+                  //                       fit: BoxFit.cover)),
+                  //             ),
+                  //             Padding(
+                  //               padding: const EdgeInsets.only(left: 15),
+                  //               child: Column(
+                  //                 mainAxisAlignment: MainAxisAlignment.start,
+                  //                 crossAxisAlignment: CrossAxisAlignment.start,
+                  //                 children: [
+                  //                   const SizedBox(
+                  //                     height: 15,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       Text(
+                  //                         "Thoseghar Waterfall",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 14,
+                  //                           fontWeight: FontWeight.bold,
+                  //                           color: Colors.black,
+                  //                         ),
+                  //                       ),
+                  //                       const SizedBox(
+                  //                         width: 10,
+                  //                       ),
+                  //                       const Icon(
+                  //                         Icons.star,
+                  //                         color: Color(0xFFEE684A),
+                  //                         size: 15,
+                  //                       ),
+                  //                       Text(
+                  //                         "4.2",
+                  //                         style: GoogleFonts.poppins(
+                  //                             fontSize: 12,
+                  //                             fontWeight: FontWeight.w500,
+                  //                             color: Colors.grey),
+                  //                       )
+                  //                     ],
+                  //                   ),
+                  //                   const SizedBox(
+                  //                     height: 5,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       const Icon(Icons.location_on_rounded,
+                  //                           size: 15, color: Color(0xFFEE684A)),
+                  //                       Text(
+                  //                         "Satara",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 12,
+                  //                           color: Colors.grey,
+                  //                         ),
+                  //                       ),
+                  //                     ],
+                  //                   ),
+                  //                 ],
+                  //               ),
+                  //             ),
+                  //           ],
+                  //         ),
+                  //       ),
+                  //     ),
+                  //     GestureDetector(
+                  //       onTap: () {
+                  //         Navigator.of(context)
+                  //             .push(MaterialPageRoute(builder: (context) {
+                  //           return const Amboli();
+                  //         }));
+                  //       },
+                  //       child: Container(
+                  //         padding: const EdgeInsets.only(top: 10),
+                  //         margin: const EdgeInsets.only(left: 10),
+                  //         width: 213,
+                  //         height: 195,
+                  //         decoration: BoxDecoration(
+                  //             borderRadius: BorderRadius.circular(20),
+                  //             color: Colors.white70),
+                  //         child: Column(
+                  //           mainAxisAlignment: MainAxisAlignment.start,
+                  //           children: [
+                  //             Container(
+                  //               width: 197,
+                  //               height: 119,
+                  //               decoration: BoxDecoration(
+                  //                   borderRadius: BorderRadius.circular(20),
+                  //                   image: const DecorationImage(
+                  //                       image: AssetImage("assets/amboli.jpg"),
+                  //                       fit: BoxFit.cover)),
+                  //             ),
+                  //             Padding(
+                  //               padding: const EdgeInsets.only(left: 15),
+                  //               child: Column(
+                  //                 mainAxisAlignment: MainAxisAlignment.start,
+                  //                 crossAxisAlignment: CrossAxisAlignment.start,
+                  //                 children: [
+                  //                   const SizedBox(
+                  //                     height: 15,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       Text(
+                  //                         "Amboli Waterfall",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 14,
+                  //                           fontWeight: FontWeight.bold,
+                  //                           color: Colors.black,
+                  //                         ),
+                  //                       ),
+                  //                       const SizedBox(
+                  //                         width: 10,
+                  //                       ),
+                  //                       const Icon(
+                  //                         Icons.star,
+                  //                         color: Color(0xFFEE684A),
+                  //                         size: 15,
+                  //                       ),
+                  //                       Text(
+                  //                         "4.2",
+                  //                         style: GoogleFonts.poppins(
+                  //                             fontSize: 12,
+                  //                             fontWeight: FontWeight.w500,
+                  //                             color: Colors.grey),
+                  //                       )
+                  //                     ],
+                  //                   ),
+                  //                   const SizedBox(
+                  //                     height: 5,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       const Icon(Icons.location_on_rounded,
+                  //                           size: 15, color: Color(0xFFEE684A)),
+                  //                       Text(
+                  //                         "Amboli",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 12,
+                  //                           color: Colors.grey,
+                  //                         ),
+                  //                       ),
+                  //                     ],
+                  //                   ),
+                  //                 ],
+                  //               ),
+                  //             ),
+                  //           ],
+                  //         ),
+                  //       ),
+                  //     ),
+                  //     GestureDetector(
+                  //       onTap: () {
+                  //         Navigator.of(context)
+                  //             .push(MaterialPageRoute(builder: (context) {
+                  //           return const Khandi();
+                  //         }));
+                  //       },
+                  //       child: Container(
+                  //         padding: const EdgeInsets.only(top: 10),
+                  //         margin: const EdgeInsets.only(left: 10),
+                  //         width: 213,
+                  //         height: 195,
+                  //         decoration: BoxDecoration(
+                  //             borderRadius: BorderRadius.circular(20),
+                  //             color: Colors.white70),
+                  //         child: Column(
+                  //           mainAxisAlignment: MainAxisAlignment.start,
+                  //           children: [
+                  //             Container(
+                  //               width: 197,
+                  //               height: 119,
+                  //               decoration: BoxDecoration(
+                  //                   borderRadius: BorderRadius.circular(20),
+                  //                   image: const DecorationImage(
+                  //                       image: AssetImage("assets/khandi.jpg"),
+                  //                       fit: BoxFit.cover)),
+                  //             ),
+                  //             Padding(
+                  //               padding: const EdgeInsets.only(left: 15),
+                  //               child: Column(
+                  //                 mainAxisAlignment: MainAxisAlignment.start,
+                  //                 crossAxisAlignment: CrossAxisAlignment.start,
+                  //                 children: [
+                  //                   const SizedBox(
+                  //                     height: 15,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       Text(
+                  //                         "Khandi Waterfall",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 14,
+                  //                           fontWeight: FontWeight.bold,
+                  //                           color: Colors.black,
+                  //                         ),
+                  //                       ),
+                  //                       const SizedBox(
+                  //                         width: 10,
+                  //                       ),
+                  //                       const Icon(
+                  //                         Icons.star,
+                  //                         color: Color(0xFFEE684A),
+                  //                         size: 15,
+                  //                       ),
+                  //                       Text(
+                  //                         "4.2",
+                  //                         style: GoogleFonts.poppins(
+                  //                             fontSize: 12,
+                  //                             fontWeight: FontWeight.w500,
+                  //                             color: Colors.grey),
+                  //                       )
+                  //                     ],
+                  //                   ),
+                  //                   const SizedBox(
+                  //                     height: 5,
+                  //                   ),
+                  //                   Row(
+                  //                     mainAxisAlignment:
+                  //                         MainAxisAlignment.start,
+                  //                     children: [
+                  //                       const Icon(Icons.location_on_rounded,
+                  //                           size: 15, color: Color(0xFFEE684A)),
+                  //                       Text(
+                  //                         "Bendevadi,Maval",
+                  //                         style: GoogleFonts.poppins(
+                  //                           fontSize: 12,
+                  //                           color: Colors.grey,
+                  //                         ),
+                  //                       ),
+                  //                     ],
+                  //                   ),
+                  //                 ],
+                  //               ),
+                  //             ),
+                  //           ],
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ],
+                  // ),
+
+                  //Popular-----------------------------------------------------------------------------------------
+
+                // SingleChildScrollView(
+                //   scrollDirection: Axis.horizontal,
+                //   child: Row(
+                //     children: [
+                //       GestureDetector(
+                //         onTap: () {
+                //           Navigator.of(context)
+                //               .push(MaterialPageRoute(builder: (context) {
+                //             return const Dudhsagar();
+                //           }));
+                //         },
+                //         child: Container(
+                //           padding: const EdgeInsets.only(top: 10),
+                //           width: 220,
+                //           height: 195,
+                //           decoration: BoxDecoration(
+                //               borderRadius: BorderRadius.circular(20),
+                //               color: Colors.white70),
+                //           child: Column(
+                //             mainAxisAlignment: MainAxisAlignment.start,
+                //             children: [
+                //               Container(
+                //                 width: 202,
+                //                 height: 119,
+                //                 decoration: BoxDecoration(
+                //                     borderRadius: BorderRadius.circular(20),
+                //                     image: const DecorationImage(
+                //                         image:
+                //                             AssetImage("assets/dudhsagar.jpeg"),
+                //                         fit: BoxFit.cover)),
+                //               ),
+                //               Padding(
+                //                 padding: const EdgeInsets.only(left: 15),
+                //                 child: Column(
+                //                   mainAxisAlignment: MainAxisAlignment.start,
+                //                   crossAxisAlignment: CrossAxisAlignment.start,
+                //                   children: [
+                //                     const SizedBox(
+                //                       height: 15,
+                //                     ),
+                //                     Row(
+                //                       mainAxisAlignment:
+                //                           MainAxisAlignment.start,
+                //                       children: [
+                //                         Text(
+                //                           "Dudhsagar Waterfall",
+                //                           style: GoogleFonts.poppins(
+                //                             fontSize: 14,
+                //                             fontWeight: FontWeight.bold,
+                //                             color: Colors.black,
+                //                           ),
+                //                         ),
+                //                         const SizedBox(
+                //                           width: 10,
+                //                         ),
+                //                         const Icon(
+                //                           Icons.star,
+                //                           color: Color(0xFFEE684A),
+                //                           size: 15,
+                //                         ),
+                //                         Text(
+                //                           "4.4",
+                //                           style: GoogleFonts.poppins(
+                //                               fontSize: 12,
+                //                               fontWeight: FontWeight.w500,
+                //                               color: Colors.grey),
+                //                         )
+                //                       ],
+                //                     ),
+                //                     const SizedBox(
+                //                       height: 5,
+                //                     ),
+                //                     Row(
+                //                       mainAxisAlignment:
+                //                           MainAxisAlignment.start,
+                //                       children: [
+                //                         const Icon(Icons.location_on_rounded,
+                //                             size: 15, color: Color(0xFFEE684A)),
+                //                         Text(
+                //                           "Sonauli,Goa",
+                //                           style: GoogleFonts.poppins(
+                //                             fontSize: 12,
+                //                             color: Colors.grey,
+                //                           ),
+                //                         ),
+                //                       ],
+                //                     ),
+                //                   ],
+                //                 ),
+                //               ),
+                //             ],
+                //           ),
+                //         ),
+                //       ),
+                //       GestureDetector(
+                //         onTap: () {
+                //           Navigator.of(context)
+                //               .push(MaterialPageRoute(builder: (context) {
+                //             return Kataldhara();
+                //           }));
+                //         },
+                //         child: Container(
+                //           padding: const EdgeInsets.only(top: 10),
+                //           margin: const EdgeInsets.only(left: 10),
+                //           width: 220,
+                //           height: 195,
+                //           decoration: BoxDecoration(
+                //               borderRadius: BorderRadius.circular(20),
+                //               color: Colors.white70),
+                //           child: Column(
+                //             mainAxisAlignment: MainAxisAlignment.start,
+                //             children: [
+                //               Container(
+                //                 width: 202,
+                //                 height: 119,
+                //                 decoration: BoxDecoration(
+                //                     borderRadius: BorderRadius.circular(20),
+                //                     image: const DecorationImage(
+                //                         image: AssetImage(
+                //                             "assets/kataldhara.jpeg"),
+                //                         fit: BoxFit.cover)),
+                //               ),
+                //               Padding(
+                //                 padding: const EdgeInsets.only(left: 15),
+                //                 child: Column(
+                //                   mainAxisAlignment: MainAxisAlignment.start,
+                //                   crossAxisAlignment: CrossAxisAlignment.start,
+                //                   children: [
+                //                     const SizedBox(
+                //                       height: 15,
+                //                     ),
+                //                     Row(
+                //                       mainAxisAlignment:
+                //                           MainAxisAlignment.start,
+                //                       children: [
+                //                         Text(
+                //                           "Kataldhara Waterfall",
+                //                           style: GoogleFonts.poppins(
+                //                             fontSize: 14,
+                //                             fontWeight: FontWeight.bold,
+                //                             color: Colors.black,
+                //                           ),
+                //                         ),
+                //                         const SizedBox(
+                //                           width: 10,
+                //                         ),
+                //                         const Icon(
+                //                           Icons.star,
+                //                           color: Color(0xFFEE684A),
+                //                           size: 15,
+                //                         ),
+                //                         Text(
+                //                           "4.3",
+                //                           style: GoogleFonts.poppins(
+                //                               fontSize: 12,
+                //                               fontWeight: FontWeight.w500,
+                //                               color: Colors.grey),
+                //                         )
+                //                       ],
+                //                     ),
+                //                     const SizedBox(
+                //                       height: 5,
+                //                     ),
+                //                     Row(
+                //                       mainAxisAlignment:
+                //                           MainAxisAlignment.start,
+                //                       children: [
+                //                         const Icon(Icons.location_on_rounded,
+                //                             size: 15, color: Color(0xFFEE684A)),
+                //                         Text(
+                //                           "Lonavala",
+                //                           style: GoogleFonts.poppins(
+                //                             fontSize: 12,
+                //                             color: Colors.grey,
+                //                           ),
+                //                         ),
+                //                       ],
+                //                     ),
+                //                   ],
+                //                 ),
+                //               ),
+                //             ],
+                //           ),
+                //         ),
+                //       ),
+                //       GestureDetector(
+                //         onTap: () {
+                //           Navigator.of(context)
+                //               .push(MaterialPageRoute(builder: (context) {
+                //             return const Kumbhe();
+                //           }));
+                //         },
+                //         child: Container(
+                //           padding: const EdgeInsets.only(top: 10),
+                //           margin: const EdgeInsets.only(left: 10),
+                //           width: 213,
+                //           height: 195,
+                //           decoration: BoxDecoration(
+                //               borderRadius: BorderRadius.circular(20),
+                //               color: Colors.white70),
+                //           child: Column(
+                //             mainAxisAlignment: MainAxisAlignment.start,
+                //             children: [
+                //               Container(
+                //                 width: 197,
+                //                 height: 119,
+                //                 decoration: BoxDecoration(
+                //                     borderRadius: BorderRadius.circular(20),
+                //                     image: const DecorationImage(
+                //                         image: AssetImage("assets/kumbhe.jpeg"),
+                //                         fit: BoxFit.cover)),
+                //               ),
+                //               Padding(
+                //                 padding: const EdgeInsets.only(left: 15),
+                //                 child: Column(
+                //                   mainAxisAlignment: MainAxisAlignment.start,
+                //                   crossAxisAlignment: CrossAxisAlignment.start,
+                //                   children: [
+                //                     const SizedBox(
+                //                       height: 15,
+                //                     ),
+                //                     Row(
+                //                       mainAxisAlignment:
+                //                           MainAxisAlignment.start,
+                //                       children: [
+                //                         Text(
+                //                           "Kumbhe Waterfall",
+                //                           style: GoogleFonts.poppins(
+                //                             fontSize: 14,
+                //                             fontWeight: FontWeight.bold,
+                //                             color: Colors.black,
+                //                           ),
+                //                         ),
+                //                         const SizedBox(
+                //                           width: 10,
+                //                         ),
+                //                         const Icon(
+                //                           Icons.star,
+                //                           color: Color(0xFFEE684A),
+                //                           size: 15,
+                //                         ),
+                //                         Text(
+                //                           "4.2",
+                //                           style: GoogleFonts.poppins(
+                //                               fontSize: 12,
+                //                               fontWeight: FontWeight.w500,
+                //                               color: Colors.grey),
+                //                         )
+                //                       ],
+                //                     ),
+                //                     const SizedBox(
+                //                       height: 5,
+                //                     ),
+                //                     Row(
+                //                       mainAxisAlignment:
+                //                           MainAxisAlignment.start,
+                //                       children: [
+                //                         const Icon(Icons.location_on_rounded,
+                //                             size: 15, color: Color(0xFFEE684A)),
+                //                         Text(
+                //                           "Kumbhe,Raigad",
+                //                           style: GoogleFonts.poppins(
+                //                             fontSize: 12,
+                //                             color: Colors.grey,
+                //                           ),
+                //                         ),
+                //                       ],
+                //                     ),
+                //                   ],
+                //                 ),
+                //               ),
+                //             ],
+                //           ),
+                //         ),
+                //       ),
+                //     ],
+                //   ),
+                // ),
+                // Expanded(
+            //   child: SingleChildScrollView(
+            //     child: Column(
+            //       children: [
+            //         const SizedBox(
+            //           height: 10,
+            //         ),
+            //         Padding(
+            //           padding: const EdgeInsets.only(left: 10),
+            //           child: Row(
+            //             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            //             children: [
+            //               Text(
+            //                 "Top Places",
+            //                 style: GoogleFonts.poppins(
+            //                   fontSize: 18,
+            //                 ),
+            //               ),
+            //             ],
+            //           ),
+            //         ),
+            //         GestureDetector(
+            //           onTap: () {
+            //             Navigator.of(context)
+            //                 .push(MaterialPageRoute(builder: (context) {
+            //               return const Malshej();
+            //             }));
+            //           },
+            //           child: Container(
+            //             width: 355,
+            //             height: 100,
+            //             padding:
+            //                 const EdgeInsets.only(top: 3, left: 10, right: 3),
+            //             margin: const EdgeInsets.only(top: 10, bottom: 3),
+            //             decoration: BoxDecoration(
+            //               color: Colors.white,
+            //               borderRadius: BorderRadius.circular(20),
+            //             ),
+            //             child: Row(
+            //               mainAxisAlignment: MainAxisAlignment.start,
+            //               children: [
+            //                 Container(
+            //                   width: 85,
+            //                   height: 90,
+            //                   decoration: BoxDecoration(
+            //                       borderRadius: BorderRadius.circular(8),
+            //                       image: const DecorationImage(
+            //                           image: AssetImage("assets/Malshej.jpg"),
+            //                           fit: BoxFit.cover)),
+            //                 ),
+            //                 const SizedBox(
+            //                   width: 10,
+            //                 ),
+            //                 Container(
+            //                   padding: const EdgeInsets.only(top: 15),
+            //                   child: Column(
+            //                     mainAxisAlignment: MainAxisAlignment.start,
+            //                     crossAxisAlignment: CrossAxisAlignment.start,
+            //                     children: [
+            //                       Text(
+            //                         "Malshej Ghat Falls",
+            //                         style: GoogleFonts.poppins(
+            //                           fontSize: 14,
+            //                           fontWeight: FontWeight.bold,
+            //                           color: Colors.black,
+            //                         ),
+            //                       ),
+            //                       const SizedBox(
+            //                         height: 5,
+            //                       ),
+            //                       Row(
+            //                         mainAxisAlignment: MainAxisAlignment.start,
+            //                         children: [
+            //                           const Icon(Icons.location_on_rounded,
+            //                               size: 15, color: Color(0xFFEE684A)),
+            //                           Text(
+            //                             "Murbad",
+            //                             style: GoogleFonts.poppins(
+            //                               fontSize: 12,
+            //                               color: Colors.grey,
+            //                             ),
+            //                           ),
+            //                         ],
+            //                       ),
+            //                       const SizedBox(
+            //                         height: 5,
+            //                       ),
+            //                       Row(
+            //                         children: [
+            //                           const Icon(
+            //                             Icons.star,
+            //                             color: Color(0xFFEE684A),
+            //                             size: 15,
+            //                           ),
+            //                           Text(
+            //                             "4.4",
+            //                             style: GoogleFonts.poppins(
+            //                                 fontSize: 12,
+            //                                 fontWeight: FontWeight.w500,
+            //                                 color: Colors.grey),
+            //                           )
+            //                         ],
+            //                       )
+            //                     ],
+            //                   ),
+            //                 ),
+            //               ],
+            //             ),
+            //           ),
+            //         ),
+            //         GestureDetector(
+            //           onTap: () {
+            //             Navigator.of(context)
+            //                 .push(MaterialPageRoute(builder: (context) {
+            //               return const Tamhini();
+            //             }));
+            //           },
+            //           child: Container(
+            //             width: 355,
+            //             height: 100,
+            //             padding:
+            //                 const EdgeInsets.only(top: 3, left: 10, right: 3),
+            //             margin: const EdgeInsets.only(top: 3, bottom: 3),
+            //             decoration: BoxDecoration(
+            //               borderRadius: BorderRadius.circular(20),
+            //               color: Colors.white,
+            //             ),
+            //             child: Row(
+            //               mainAxisAlignment: MainAxisAlignment.start,
+            //               children: [
+            //                 Container(
+            //                   padding: const EdgeInsets.all(8.0),
+            //                   width: 85,
+            //                   height: 90,
+            //                   decoration: BoxDecoration(
+            //                       borderRadius: BorderRadius.circular(8),
+            //                       image: const DecorationImage(
+            //                           image: AssetImage("assets/tamhini.jpg"),
+            //                           fit: BoxFit.cover)),
+            //                 ),
+            //                 const SizedBox(
+            //                   width: 10,
+            //                 ),
+            //                 Container(
+            //                   padding: const EdgeInsets.only(top: 15),
+            //                   child: Column(
+            //                     mainAxisAlignment: MainAxisAlignment.start,
+            //                     crossAxisAlignment: CrossAxisAlignment.start,
+            //                     children: [
+            //                       Text(
+            //                         "Tamhini Ghat Falls",
+            //                         style: GoogleFonts.poppins(
+            //                           fontSize: 14,
+            //                           fontWeight: FontWeight.bold,
+            //                           color: Colors.black,
+            //                         ),
+            //                       ),
+            //                       const SizedBox(
+            //                         height: 5,
+            //                       ),
+            //                       Row(
+            //                         mainAxisAlignment: MainAxisAlignment.start,
+            //                         children: [
+            //                           const Icon(Icons.location_on_rounded,
+            //                               size: 15, color: Color(0xFFEE684A)),
+            //                           Text(
+            //                             "Mulshi",
+            //                             style: GoogleFonts.poppins(
+            //                               fontSize: 12,
+            //                               color: Colors.grey,
+            //                             ),
+            //                           ),
+            //                         ],
+            //                       ),
+            //                       const SizedBox(
+            //                         height: 5,
+            //                       ),
+            //                       Row(
+            //                         children: [
+            //                           const Icon(
+            //                             Icons.star,
+            //                             color: Color(0xFFEE684A),
+            //                             size: 15,
+            //                           ),
+            //                           Text(
+            //                             "4.2",
+            //                             style: GoogleFonts.poppins(
+            //                                 fontSize: 12,
+            //                                 fontWeight: FontWeight.w500,
+            //                                 color: Colors.grey),
+            //                           )
+            //                         ],
+            //                       )
+            //                     ],
+            //                   ),
+            //                 ),
+            //               ],
+            //             ),
+            //           ),
+            //         ),
+            //         GestureDetector(
+            //           onTap: () {
+            //             Navigator.of(context)
+            //                 .push(MaterialPageRoute(builder: (context) {
+            //               return const Vajrai();
+            //             }));
+            //           },
+            //           child: Container(
+            //             width: 355,
+            //             height: 100,
+            //             padding:
+            //                 const EdgeInsets.only(top: 3, left: 10, right: 3),
+            //             margin: const EdgeInsets.only(top: 3, bottom: 3),
+            //             decoration: BoxDecoration(
+            //               borderRadius: BorderRadius.circular(20),
+            //               color: Colors.white,
+            //             ),
+            //             child: Row(
+            //               mainAxisAlignment: MainAxisAlignment.start,
+            //               children: [
+            //                 Container(
+            //                   padding: const EdgeInsets.all(8.0),
+            //                   width: 85,
+            //                   height: 90,
+            //                   decoration: BoxDecoration(
+            //                       borderRadius: BorderRadius.circular(8),
+            //                       image: const DecorationImage(
+            //                           image:
+            //                               AssetImage("assets/Vajrai/vaj2.jpg"),
+            //                           fit: BoxFit.cover)),
+            //                 ),
+            //                 const SizedBox(
+            //                   width: 10,
+            //                 ),
+            //                 Container(
+            //                   padding: const EdgeInsets.only(top: 15),
+            //                   child: Column(
+            //                     mainAxisAlignment: MainAxisAlignment.start,
+            //                     crossAxisAlignment: CrossAxisAlignment.start,
+            //                     children: [
+            //                       Text(
+            //                         "Vajrai WaterFalls",
+            //                         style: GoogleFonts.poppins(
+            //                           fontSize: 14,
+            //                           fontWeight: FontWeight.bold,
+            //                           color: Colors.black,
+            //                         ),
+            //                       ),
+            //                       const SizedBox(
+            //                         height: 5,
+            //                       ),
+            //                       Row(
+            //                         mainAxisAlignment: MainAxisAlignment.start,
+            //                         children: [
+            //                           const Icon(Icons.location_on_rounded,
+            //                               size: 15, color: Color(0xFFEE684A)),
+            //                           Text(
+            //                             "Kas,Satara",
+            //                             style: GoogleFonts.poppins(
+            //                               fontSize: 12,
+            //                               color: Colors.grey,
+            //                             ),
+            //                           ),
+            //                         ],
+            //                       ),
+            //                       const SizedBox(
+            //                         height: 5,
+            //                       ),
+            //                       Row(
+            //                         children: [
+            //                           const Icon(
+            //                             Icons.star,
+            //                             color: Color(0xFFEE684A),
+            //                             size: 15,
+            //                           ),
+            //                           Text(
+            //                             "4.1",
+            //                             style: GoogleFonts.poppins(
+            //                                 fontSize: 12,
+            //                                 fontWeight: FontWeight.w500,
+            //                                 color: Colors.grey),
+            //                           )
+            //                         ],
+            //                       )
+            //                     ],
+            //                   ),
+            //                 ),
+            //               ],
+            //             ),
+            //           ),
+            //         ),
+            //       ],
+            //     ),
+            //   ),
+            // )

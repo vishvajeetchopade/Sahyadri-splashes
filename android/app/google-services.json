@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "784575098897",
+    "project_id": "sahyadrii-splashes",
+    "storage_bucket": "sahyadrii-splashes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784575098897:android:78aa396eb0c260e4fec1b0",
+        "android_client_info": {
+          "package_name": "com.example.sahyadri_splashes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMvZCg_m5hOii-WpF1kt3R7nxTiT9Tzes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
